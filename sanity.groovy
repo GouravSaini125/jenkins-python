@@ -16,6 +16,7 @@ podTemplate(label: 'sanity-build',
 
         stage('Deploy') {
             
+                echo "Running"
                 python3 hello.py
         }
 
